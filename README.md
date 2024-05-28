@@ -46,6 +46,8 @@ pip install aiohttp colorama
 ```
 ## Running the Scanner
 
+> Please use your own payloads.txt file
+
 ```
 python3 scanner.py -d domains.txt -p payloads.txt [options]
 ```
