@@ -26,7 +26,8 @@ In the begining of scanning, the scanner displays the following from the default
 - Configurable batch size, delay, timeout, and retry attempts.
 - Writes successful attempts to an output file with detailed information.
 
-![image](https://github.com/ifconfig-me/Path-Traversal-Scanner/assets/25315805/8a08f3a0-bc36-489e-9c05-a8129bda3ff2)
+![image](https://github.com/user-attachments/assets/448c2dd0-4258-4830-9b04-c8ae673001a5)
+
 
 ## Usage
 
