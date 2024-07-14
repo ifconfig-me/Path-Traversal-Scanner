@@ -2,6 +2,8 @@
 
 This is a bulk scanner for detecting Path Traversal vulnerabilities based on my previous work [CVE-2024-4956 Bulk Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner). This scanner scans a list of URLs for path traversal vulnerabilities. It has built-in user agents and rotates between targets to avoid WAF (though this may not always be effective, lol). 
 
+![image](https://github.com/user-attachments/assets/448c2dd0-4258-4830-9b04-c8ae673001a5)
+
 The scanner includes several configurable settings such as batch size, delay, timeout, and retry attempts. Additionally, it checks if the domains in the list have a schema; if not, it automatically prepends "http://" to the raw domain names. 
 
 In the begining of scanning, the scanner displays the following from the default configurations if not provided: 
@@ -25,9 +27,6 @@ In the begining of scanning, the scanner displays the following from the default
 - Randomized user-agent headers to evade detection.
 - Configurable batch size, delay, timeout, and retry attempts.
 - Writes successful attempts to an output file with detailed information.
-
-![image](https://github.com/user-attachments/assets/448c2dd0-4258-4830-9b04-c8ae673001a5)
-
 
 ## Usage
 
@@ -54,7 +53,7 @@ python3 scanner.py -d domains.txt -p payloads.txt [options]
 ```
 ### Additional Configurations
 ```
-python3 scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZE] [-bd BATCH_DELAY] [-t TIMEOUT] [-r RETRY_COUNT] [-h HELP] 
+python3 Bulk-Path-Traversal-Scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZE] [-bd BATCH_DELAY] [-t TIMEOUT] [-r RETRY_COUNT] [-h HELP] 
 ```
 ### Command Line Arguments
 
@@ -67,7 +66,7 @@ python3 scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZE] [-bd BATCH_DELAY]
 
 ### Example
 
-```python3 scanner.py -d domains.txt -p payloads.txt -b 100 -bd 2 -t 2 -r 3```
+```python3 Bulk-Path-Traversal-Scanner.py -d domains.txt -p payloads.txt -b 100 -bd 2 -t 2 -r 3```
 
 ### Output
 The results will be saved in ```write-poc.txt``` in the following format:
