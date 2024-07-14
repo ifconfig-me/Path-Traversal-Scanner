@@ -10,7 +10,7 @@ import argparse
 import random
 from colorama import init, Fore, Style
 
-# Default values
+# Default values 
 DEFAULT_BATCH_SIZE = 150
 DEFAULT_BATCH_DELAY = 1.5
 DEFAULT_TIMEOUT = 1.8
