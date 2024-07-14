@@ -1,6 +1,6 @@
 # Path-Traversal-Scanner
 
-This is a bulk scanner for detecting Path Traversal vulnerabilities based on my previous work [CVE-2024-4956 Bulk Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner). This scanner scans a list of URLs for path traversal vulnerabilities. It has built-in user agents and rotates between targets to avoid WAF (though this may not always be effective, lol). 
+This is a bulk scanner for detecting Path Traversal vulnerabilities based on my previous work [CVE-2024-4956 Bulk Scanner](https://github.com/ifconfig-me/CVE-2024-4956-Bulk-Scanner). This scanner scans a list of URLs for path traversal vulnerabilities. It has built-in user agents and rotates between targets to avoid WAF (I think so, lol). 
 
 ![image](https://github.com/user-attachments/assets/448c2dd0-4258-4830-9b04-c8ae673001a5)
 
