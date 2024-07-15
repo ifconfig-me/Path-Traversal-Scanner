@@ -4,7 +4,7 @@ This is a bulk scanner for detecting Path Traversal vulnerabilities based on my 
 
 ![image](https://github.com/user-attachments/assets/448c2dd0-4258-4830-9b04-c8ae673001a5)
 
-The scanner includes several configurable settings such as batch size, delay, timeout, and retry attempts. Additionally, it checks if the domains in the list have a schema; if not, it automatically prepends "http://" to the raw domain names. 
+The scanner includes several configurable settings such as batch size, delay, timeout, and retry attempts. Additionally, it checks if the domains in the list have a schema; if not, it automatically prepends "http://" to the raw domain names. I have added a new funtion to removes any trailing slashes from the domain and to ensures the payload starts with a slash before combining them to form the ptopoer URL.
 
 In the begining of scanning, the scanner displays the following from the default configurations if not provided: 
 - Total targets loaded: XXXXX
