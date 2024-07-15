@@ -2,7 +2,7 @@
 # Intended only for educational and testing in corporate environments.
 # https://twitter.com/nav1n0x/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 # Do not attack a target you don't have permission to engage with.
-# May give a false positive, so confirm the results in the poc file, using Burp Suite etc.
+# May give false positives, so confirm the results in the poc file, using Burp Suite etc.
 
 import asyncio
 import aiohttp
@@ -52,7 +52,7 @@ ascii_art = """
 # Intended only for educational and testing in corporate environments.
 # https://twitter.com/nav1n0x/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 # Do not attack a target you don't have permission to engage with.
-# May give a false positive, so confirm the results in the poc file, using Burp Suite etc.
+# May give false positives, so confirm the results in the poc file, using Burp Suite etc.
 
 usage: scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZE] [-bd BATCH_DELAY] [-t TIMEOUT] [-r RETRY_COUNT] [-h HELP]
 
