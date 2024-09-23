@@ -10,7 +10,6 @@ import argparse
 import random
 from colorama import init, Fore, Style
 
-# Default values
 DEFAULT_BATCH_SIZE = 150
 DEFAULT_BATCH_DELAY = 1.5
 DEFAULT_TIMEOUT = 1.8
@@ -70,13 +69,10 @@ def is_valid_passwd(content):
     return False
 
 def construct_url(domain, payload):
-    # Remove trailing slash from domain if present
     if domain.endswith('/'):
         domain = domain[:-1]
-    # Ensure payload starts with a slash
     if not payload.startswith('/'):
         payload = '/' + payload
-    # Construct the full URL
     return domain + payload
 
 async def send_request(session, domain, payload, index, total, timeout, retry_count):
