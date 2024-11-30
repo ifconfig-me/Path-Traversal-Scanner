@@ -1,6 +1,6 @@
 # Bulk Path Traversal Scanner
 # Intended only for educational and testing in corporate environments.
-# https://twitter.com/nav1n0x/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
+# https://twitter.com/nav1n0x https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 # Do not attack a target you don't have permission to engage with.
 # May give false positives, so confirm the results in the poc file, using Burp Suite etc.
 
@@ -8,7 +8,7 @@ import asyncio
 import aiohttp
 import argparse
 import random
-from colorama import init, Fore, Style
+from colorama import init, Fore, Style #
 
 DEFAULT_BATCH_SIZE = 150
 DEFAULT_BATCH_DELAY = 1.5
@@ -19,7 +19,7 @@ RESPONSE_SIZE_LIMIT = 1024 * 10  # 10 KB
 init(autoreset=True)
 
 user_agents = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.160 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.160 Safari/537.36", #
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
