@@ -1,6 +1,6 @@
 # Bulk Path Traversal Scanner
 # Intended only for educational and testing in corporate environments.
-# https://twitter.com/nav1n0x https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
+# https://x.com/__nav1n_/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 # Do not attack a target you don't have permission to engage with.
 # May give false positives, so confirm the results in the poc file, using Burp Suite etc.
 
@@ -44,12 +44,12 @@ ascii_art = """
   ____ _____ ___  _/_   | ____  
  /    \\\\__  \\\\  \\/ /|   |/    \\ 
 |   |  \\/ __ \\\\   / |   |   |  \\
-|___|  (____  /\\_/  |___|___|  /
+|___|  (____  /\\\_/  |___|___|  /
      \\/     \\/        v.0.2.1 \\/
      
 # Bulk Path Traversal Scanner
 # Intended only for educational and testing in corporate environments.
-# https://twitter.com/nav1n0x/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
+# https://x.com/__nav1n_/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 # Do not attack a target you don't have permission to engage with.
 # May give false positives, so confirm the results in the poc file, using Burp Suite etc.
 

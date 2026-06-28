@@ -19,7 +19,7 @@ In the begining of scanning, the scanner displays the following from the default
 
 > 1. Bulk Path Traversal Scanner
 > 2. Intended only for educational and testing in corporate environments.
-> 3. https://twitter.com/nav1n0x/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
+> 3. https://x.com/__nav1n_/ https://github.com/ifconfig-me takes no responsibility for the code, use at your own risk.
 > 4. Do not attack a target you don't have permission to engage with.
 > 5. May give a false positive, so confirm the results in the POC file using Burp Suite, etc.
 
@@ -73,7 +73,7 @@ python3 Bulk-Path-Traversal-Scanner.py [-h] -d DOMAINS -p PAYLOADS [-b BATCH_SIZ
 ### Output
 The results will be saved in ```write-poc.txt``` in the following format:
 ```
-Success: http://example.com - Payload: %2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f../etc/passwd - User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Success: http://example.com - Payload: %2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f../etc/passwd - User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1[...]
 ```
 
 ## License
